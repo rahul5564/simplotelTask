@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Nav-Bar{
+    text-align: center;
+    justify-content: center;
+}
+.Nav-Bar ul{
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        margin-left: 20%;
+}
+.Nav-Bar li{
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 20px 40px;
+        text-decoration: none;
+        cursor: pointer;
+}
+#right{
+    float: right;
+    padding: 20px;
+}
+.Body{
+    position: relative;
+}
+.image-container {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+.img{
+    width: 100%;
+    height: 780px;
+    display: block;
+  }
+#img-p{
+    font-weight: bolds;
+}
+.img-content{
+    position: absolute;
+    bottom: 25rem;
+    left: 20px;
+    color: white;
+    width: 28%;
+    padding: 30px;
+    background-color: lightcoral;
+    opacity: 0.8;
+    overflow: hidden;
+}
+.img-heading{
+    font-weight: bold;
+    font-size: 3vw;
+}
+.img-p{
+    line-height: 2;
+    font-family:'Times New Roman', Times, serif;
+}
+.bottom-color{
+    position: absolute;
+    bottom: 0.1px;
+    width: 100%;
+    background: linear-gradient(90deg, #FF69B4 45%, #FFFF33);
+    padding: 70px 0px;
+}
+.Second-div{
+    background: linear-gradient(90deg, #FF69B4 45%, #FFFF33);
+}
+.Second-div h1{
+    text-align: center;
+}
+.Second-div{
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.Upper{
+    border: 1px solid black;
+}
+.mini-display{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    gap: 18px;
+}
+.mini-container{
+    text-align: center;
+    width: 15%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    margin: 0px 4rem;
+    background-color: antiquewhite;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.mini-container h3{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+.mini-container p{
+    margin-bottom: 5px;
+}
+.mini-image{
+    width: 100%;
+    height: 200px; /* Set your desired height here */
+    object-fit: cover; /* This property ensures the image retains its aspect ratio */
+    border: 1px solid #ddd;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.Second-div-head{
+    color: white;
+    font-size: 36px;
+    line-height: 2;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    margin-top: 10px;
+    padding: 11px 35px;
+    color: black;
+    background-color: lightsalmon;
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7rem;
+    padding-top: 2.5rem;
+}
+@media only screen and (max-width: 768px) {
+    .img-content {
+      width: 25%; /* Adjust the percentage as needed for smaller screens */
+      left: 10%; /* Adjust the percentage as needed */
+      bottom: 1rem;
+      height: 300px;
+    }
+    .img-heading {
+      font-size: 2.5vw; /* Adjust the viewport width font size for smaller screens */
+    }
+    .Nav-Bar{
+        max-width: 30%;
+    }
+    .mini-display{
+        margin-left: 2rem;
+    }
+    .mini-container{
+        width: 15%;
+        margin-bottom: 20px;
+        padding: 5px 10px;
+        margin: 0px 4rem;
+    }
+  }
